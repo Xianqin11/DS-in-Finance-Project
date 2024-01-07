@@ -1,3 +1,4 @@
+'''
 import dash
 from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc  # 需要先安装: pip install dash-bootstrap-components
@@ -72,3 +73,4 @@ def update_graph(amount, risk_profile, asset_mix):
 if __name__ == '__main__':
     app.run_server(debug=True)
 
+'''

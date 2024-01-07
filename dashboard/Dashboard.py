@@ -1,4 +1,4 @@
-'''from dash import Dash, dcc, html, dash_table, Input, Output
+from dash import Dash, dcc, html, dash_table, Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
@@ -84,4 +84,3 @@ def update_graph(amount):
 # 运行服务器
 if __name__ == '__main__':
     app.run_server(debug=True)
-'''
